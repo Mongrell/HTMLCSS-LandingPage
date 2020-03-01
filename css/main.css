@@ -357,11 +357,12 @@ section {
 }
 
 footer {
-    flex-wrap: wrap;
+    display: flex;
+    background-color: black;
     position: relative;
     z-index: 0;
     min-height: 330px;
-    background-color: black;
+    flex-wrap: wrap;
 }
 
 footer:after {
@@ -378,16 +379,13 @@ footer:after {
 
 .lists {
     flex: 0 0 75%;
-    left: 15px;
-    right: 15px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 40px 15px;
 }
 
 .link-header {
     text-transform: uppercase;
-    font-size: 16px;
     font-weight: 700;
+    font-size: 16px;
     margin-bottom: 15px;
 }
 
@@ -461,6 +459,9 @@ footer a:hover {
     padding: 40px 0;
     color: #e5e5e5;
     font-size: 16px;
+}
+
+.ps img {
     max-width: 230px;
 }
 
@@ -474,7 +475,7 @@ footer a:hover {
     width: 100%;
     height: 1px;
     margin: 30px 0;
-    background: linear-gradient(to right, #f05a28 0, #e80a89 100%);
+    background: linear-gradient(to right,#f05a28 0,#e80a89 100%);
 }
 
 .copyright {
